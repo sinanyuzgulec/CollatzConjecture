@@ -1,6 +1,6 @@
 # CollatzConjecture
 
-pieces of code I developed to explore and observe the Collatz Conjecture
+pieces of code to explore and observe the Collatz Conjecture
 
 What is Collatz Conjecture?
 
