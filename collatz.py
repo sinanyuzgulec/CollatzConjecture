@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- 
-num = int(input("sayı girin: "))
-def collatz(num):
-    num_seq = [num]
-    if num < 1:
+sayi = int(input("sayı girin: "))
+def collatz(sayi):
+    sayi_listesi = [sayi]
+    if sayi < 1:
        return []
-    while num > 1:
-       if num % 2 == 0:
-         num = num / 2
+    while sayi > 1:
+       if sayi % 2 == 0:
+         sayi = sayi / 2
        else:
-         num = 3 * num + 1
-       num_seq.append(num)    
-    return num_seq
+         sayi = 3 * sayi + 1
+       sayi_listesi.append(sayi)    
+    return sayi_listesi
 
-print(collatz(num))
+print(collatz(sayi))
